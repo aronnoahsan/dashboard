@@ -1,5 +1,6 @@
 import Sidebar from "@/components/Sidebar";
 // import "../page.module.css";
+import styles from "@page.module.css";
 
 export const metadata = {
   title: "2 Dashboard",
@@ -9,8 +10,10 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <>
-      <Sidebar />
-      {children}
+      <div>
+        <Sidebar />
+        {children}
+      </div>
     </>
   );
 }

@@ -39,11 +39,11 @@ export default function Home() {
           <div className={styles.gap} />
           <div className={styles.graph__component__flex}>
             <div className={styles.graph__component}>
-              <h2 className={styles.h2__style}>User Growth</h2>
+              <h2 className={styles.h2__style}>Page Views</h2>
               <BarChartGraph />
             </div>
             <div className={styles.graph__component}>
-              <h2 className={styles.h2__style}>Subjects</h2>
+              <h2 className={styles.h2__style}>Retention</h2>
               <RadialGraph />
             </div>
           </div>
