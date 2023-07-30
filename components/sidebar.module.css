@@ -1,0 +1,45 @@
+.sidebar__flex {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.sidebar__list {
+  list-style: none;
+}
+
+.list__item {
+  margin: 0 0 1rem 0;
+  width: 100%;
+}
+
+.item__flex {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  padding: 1rem 1rem 1rem 1rem;
+  /* width: 100%; */
+}
+
+.active__item,
+.list__item:hover {
+  background-color: azure;
+  border-radius: 0.5rem;
+  width: 100%;
+}
+
+.user__credentials {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  align-items: center;
+  padding: 1rem 0;
+  background-color: azure;
+  border-radius: 1rem;
+}
+
+.user__img {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 2rem;
+  margin: 0 0 0 1rem;
+}
