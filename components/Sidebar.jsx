@@ -46,7 +46,7 @@ function Sidebar() {
             </div>
           </li>
           <li className={styles.list__item}>
-            <div className={styles.item__flex}>
+            <div className={listClassName("/dashboard/users")}>
               <div>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -65,7 +65,7 @@ function Sidebar() {
             </div>
           </li>
           <li className={styles.list__item}>
-            <div className={styles.item__flex}>
+            <div className={listClassName("/dashboard/products")}>
               <div>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -84,7 +84,7 @@ function Sidebar() {
             </div>
           </li>
           <li className={styles.list__item}>
-            <div className={styles.item__flex}>
+            <div className={listClassName("/dashboard/support")}>
               <div>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
