@@ -60,7 +60,7 @@ function Sidebar() {
                 </svg>
               </div>
               <div>
-                <Link href="/users">Users</Link>
+                <Link href="/dashboard/users">Users</Link>
               </div>
             </div>
           </li>
@@ -79,7 +79,7 @@ function Sidebar() {
                 </svg>
               </div>
               <div>
-                <Link href="/products">Products</Link>
+                <Link href="/dashboard/products">Products</Link>
               </div>
             </div>
           </li>
@@ -100,7 +100,7 @@ function Sidebar() {
                 </svg>
               </div>
               <div>
-                <Link href="/support">Support</Link>
+                <Link href="/dashboard/support">Support</Link>
               </div>
             </div>
           </li>
