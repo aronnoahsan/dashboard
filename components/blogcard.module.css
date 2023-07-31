@@ -1,14 +1,20 @@
 .card__holder {
   display: flex;
   flex-direction: column;
-  gap: 1rem;
-  padding: 0.5rem;
-  border-radius: 1.5rem;
+  /* gap: 1rem; */
+  border-radius: 1rem;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
   width: fit-content;
 }
 .blog__thumbnail {
-  border-radius: 1rem;
+  border-radius: 1rem 1rem 0 0;
+}
+
+.blog__data {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 1.5rem;
 }
 .date__img__flex {
   display: flex;
@@ -18,10 +24,11 @@
 }
 .date__style {
   color: rgb(160, 160, 160);
-  font-size: small;
+  font-size: smaller;
 }
 .title__style {
-  max-width: 12.5rem;
+  max-width: 9rem;
+  font-size: small;
 }
 .author__img {
   border-radius: 2rem;
