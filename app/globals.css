@@ -2,9 +2,9 @@
   --font-mono: ui-monospace, Poppins, Menlo, Monaco, "Poppins" "Cascadia Mono",
     "Segoe UI Mono", "Roboto Mono", "Oxygen Mono", "Ubuntu Monospace",
     "Source Code Pro", "Fira Mono", "Droid Sans Mono", "Courier New", monospace;
-}
 
-@media (prefers-color-scheme: light) {
+  --primary-shadow: rgba(0, 0, 0, 0.2) 0px 18px 50px -10px;
+  --secondary-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
 }
 
 * {

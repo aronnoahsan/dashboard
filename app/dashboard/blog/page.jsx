@@ -1,5 +1,9 @@
 import BlogCard from "@/components/BlogCard";
 import styles from "@/styles/blog.module.css";
+export const metadata = {
+  title: "Blog Dashboard",
+  description: "Sample App Dashboard",
+};
 function Blog() {
   return (
     <div>

@@ -9,13 +9,13 @@
 .component__grid {
   display: flex;
   flex-direction: row;
-  gap: 1rem;
+  gap: 2rem;
 }
 .sidebar__component {
   width: 25vw;
 }
 .main__component {
-  width: 80vw;
+  width: 100%;
 }
 
 .graph__component__flex {

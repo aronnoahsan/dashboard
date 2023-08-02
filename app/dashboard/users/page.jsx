@@ -1,6 +1,9 @@
 import styles from "@/styles/users.module.css";
 import Image from "next/image";
-
+export const metadata = {
+  title: "Users Dashboard",
+  description: "Sample App Dashboard",
+};
 function Users() {
   return (
     <div>

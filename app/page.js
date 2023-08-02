@@ -1,4 +1,3 @@
-import Image from "next/image";
 import styles from "./page.module.css";
 import Navbar from "@/components/Navbar";
 import Sidebar from "@/components/Sidebar";
@@ -7,7 +6,7 @@ import RadarChartGraph from "@/components/charts/RadarChart";
 import BarChartGraph from "@/components/charts/BarChart";
 import RadialGraph from "@/components/charts/RadialGraph";
 
-Navbar.metadata = {
+export const metadata = {
   title: "Dashboard",
   description: "Sample App Dashboard",
 };

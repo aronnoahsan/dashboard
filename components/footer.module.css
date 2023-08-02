@@ -1,0 +1,9 @@
+.footer__style {
+  margin: 3rem 0;
+  text-align: center;
+}
+
+.footer__container {
+  max-width: 80vw;
+  margin: 0 auto;
+}
