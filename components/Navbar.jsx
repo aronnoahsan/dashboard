@@ -16,7 +16,7 @@ function Navbar() {
   }
 
   return (
-    <header>
+    <>
       <nav className={styles.navbar}>
         <Link href="/" className={styles.nav__logo}>
           <span className={styles.logo}>
@@ -77,7 +77,7 @@ function Navbar() {
           <span className={styles.bar}></span>
         </button>
       </nav>
-    </header>
+    </>
   );
 }
 
